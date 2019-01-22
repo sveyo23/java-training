@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class ifelse {
+	public static void main(String[]args)
+	{
+		Scanner input = new Scanner (System.in);
+		System.out.print("Enter two numbers: ");
+		int firstNum = input.nextInt();
+		int secondNum =input.nextInt();
+		int bigNum=firstNum;
+		
+		if(secondNum >firstNum){
+			bigNum = secondNum;
+			
+			
+		}
+		
+		System.out.printf("the biger number is: %d%n", bigNum);
+		
+	}
+
+}
