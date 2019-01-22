@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class counter7 {
+	public static void main(String[]args)
+	{
+		Scanner input=new Scanner(System.in);
+		System.out.println("n= ");
+		int n = input.nextInt();
+		System.out.println("enter  nums: ");
+		int max	= Integer.MIN_VALUE;
+		
+		for(int i =1; i<n; i++)
+		{
+			int num= input.nextInt();
+			if (num>max)
+			{
+				max=num;
+			}
+			System.out.println("max- "+ max);
+		}
+		
+		}
+			
+		
+		
+	}

@@ -1,0 +1,10 @@
+public class nums {
+
+	public static void main(String[] args) {
+		
+		String a= "Ivan";
+		String b= "Ivanov";
+		
+		System.out.println( "Hello: " + a );
+		System.out.println("the full name is : "+ a + " " + b);
+}}

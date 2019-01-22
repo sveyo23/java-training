@@ -1,0 +1,13 @@
+public class stringTime {
+
+	
+	
+	public static void main(String[]args){
+	
+		
+		String doc ="hello, somebla@abv.bg"+" you have been using somebla@abv.bg for your registration";
+		String fixedDoc= doc.replace("somebla@abv.bg", "ivan@gmail.bg");
+		
+		System.out.println(fixedDoc);
+		}
+	}

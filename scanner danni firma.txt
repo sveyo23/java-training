@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class managerInfo {
+	public static void main(String[]args){
+		Scanner input =new Scanner(System.in);
+		
+		System.out.println("Danni na firmata");
+		System.out.println("Ime na firmata: ");
+		String name= input.nextLine();
+		
+		System.out.println("Adres na firmata: ");
+		String adress= input.nextLine();
+		
+		System.out.println("Telefonen nomer: ");
+		int tel = input.nextInt();
+		
+		System.out.printf("Imeto na firmata e %s, adresa e %s i telefona e %d", name ,adress,tel );
+		
+		
+		
+		
+	}
+	
+
+}

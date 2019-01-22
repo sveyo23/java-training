@@ -1,0 +1,21 @@
+import java.util.Scanner;
+import java.math.*;
+
+public class radiusOkru {
+	public static void main(String[]args)
+	{
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter digit: " );
+		int r = input.nextInt();
+		
+		
+		int d= 2*r;
+		System.out.print("The diametr is: " +d +'\n');
+	
+		int p= (int) ((Math.PI*d) + (2*Math.PI*r));
+		System.out.print("The Parametr is : " +p);
+	
+	}
+
+}

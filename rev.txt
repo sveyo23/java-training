@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class sortArr {
+	public static void main(String[]args){
+		Scanner input=new Scanner(System.in);
+		System.out.println("ente num");
+		int num=input.nextInt();
+		
+		revStr(num);
+		
+	}
+		public static void revStr(int num){
+		
+			while (num!=0){
+				System.out.print(num%10);
+				num= num/10;
+			}
+		
+		
+		}
+			
+					}

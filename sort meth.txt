@@ -1,0 +1,33 @@
+public class sortArr {
+	public static void main(String[]args){
+		int[] numbers=sort(11,2,10,25,56,15,22);
+		
+		printNum(numbers);
+	}
+		
+	
+	public static int[] sort(int ...numbers){
+		for (int i= 0; inumbers.length-1; i++){
+			for(int j=i+1; jnumbers.length-1; j++){
+				if(numbers[i]numbers[j]){
+					int temp=numbers[i];
+					numbers[i]=numbers[j];
+					numbers[j]=temp;
+					
+				}
+			}
+		}
+		return numbers;
+	}
+		public static void printNum(int ...numbers){
+		for(int i=0; inumbers.length; i++){
+			System.out.printf(%d, numbers[i]);
+
+			if(i(numbers.length-1))
+				System.out.print(,);
+		
+		
+		}
+			
+					}
+}

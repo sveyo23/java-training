@@ -1,0 +1,33 @@
+public class stringTime {
+
+	
+	
+	public static void main(String[]args){
+	//sravnqvane
+		String Name2= "stefan";
+		String Name="stefan";
+		
+		System.out.println(Name.compareTo(Name2));
+		System.out.println(Name2.equalsIgnoreCase(Name));
+		
+		
+	//dolepqne	
+		
+		String start= "Imam ";
+		String next = "gotino gadje";
+	System.out.println(start.concat(next));
+
+	
+	//tursene
+	
+	String name="az sum Svetkotista";
+	int index = name.indexOf("Sve");
+	System.out.println(index);
+	
+
+	//razdelqne na niza na podnizove
+       String listOfBeers = "Amstel, Zagorka, Tuborg, Becks."; 
+	String[] beersArr = listOfBeers.split("[ ,.]"); 
+	
+	}
+}

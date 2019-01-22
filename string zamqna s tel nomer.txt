@@ -1,0 +1,13 @@
+public class stringTime {
+
+	
+	
+	public static void main(String[]args){
+	
+		
+		String doc ="Smiths number : 0885643388";
+		String replacedDoc= doc.replaceAll("(08)[0-9]{8}", "$1********");
+		
+		System.out.println(replacedDoc);
+		}
+	}

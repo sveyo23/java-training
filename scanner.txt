@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class ReadingStringsNewStyle {
+
+	public static void main (String[]args)
+	
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.print("please enter your first name: ");
+		String firstName = input.nextLine();
+		
+		System.out.print("please enter your last name: ");
+		String lastName = input.nextLine();
+		
+		System.out.printf("hello %s %s, !\n", firstName, lastName );
+		
+				
+				
+	}
+}
