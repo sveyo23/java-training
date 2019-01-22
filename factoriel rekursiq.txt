@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class methTest {
+
+	public static void main(String[]args){
+		Scanner input= new Scanner(System.in);
+		System.out.println("enter n : ");
+		int n = input.nextInt();
+		long factoriel =factoriel(n);
+		System.out.printf("%d = %d%n", n,factoriel);
+	
+	}
+	
+	public static long factoriel(int n){
+		if (n==0){
+			return 1;
+		}
+		else {
+			return n*factoriel(n-1);
+		}
+		
+	}
+	
+	
+	
+}
