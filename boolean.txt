@@ -1,0 +1,25 @@
+public static void main(String[] args) {
+		int a=10;
+		int b=12;
+		 boolean greaterAB=(a>b);
+		 boolean equal=  (a==b);
+		  if (greaterAB)
+		  {System.out.println("a>b");}
+		  
+		  
+		  else
+		  {System.out.println(a=b);}
+		 
+		  System.out.println("gr"+ greaterAB);
+		  System.out.println("equal"+equal);
+	 
+
+	}
+	}
+
+
+
+
+int a = 6; 
+int b = 4;
+ System.out.println(a > b ? "a>b" : "b<=a"); 
