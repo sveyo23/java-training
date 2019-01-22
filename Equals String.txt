@@ -1,0 +1,12 @@
+public class stringTime {
+
+	
+	
+	public static void main(String[]args){
+		String Name2= "stefan";
+		String Name="steFan";
+		
+		System.out.println(Name.equals(Name2));
+		System.out.println(Name2.equalsIgnoreCase(Name));
+	}
+}
