@@ -1,0 +1,12 @@
+public class str {
+
+	public static void main(String[]args){
+		
+		String palindrome= "Dot saw i was tod";
+		
+		StringBuilder str= new StringBuilder(palindrome);
+		str.reverse();
+		
+		System.out.println(str);
+	}
+}

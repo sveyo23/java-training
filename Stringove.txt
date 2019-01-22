@@ -1,0 +1,28 @@
+public class stringTime {
+
+	
+	
+	public static void main(String[]args){
+	
+		
+		String catalog= "MicrowaveOven: 170, \n"+
+						"AudioSistem: 125, \n"+
+						"Tv: 315, \n"+
+						"Refrigenerator :400 , \n";
+		System.out.println(catalog);
+						
+		String [] products = catalog.split("[\\d\\s,:]+");
+		for (String product: products){
+			System.out.println(product+"");
+		}
+		
+		String [] prices= catalog.split("[\\D]+");
+		for (String  price: prices){
+			System.out.println(price+"");
+		}
+	}
+	
+	}
+	
+	
+

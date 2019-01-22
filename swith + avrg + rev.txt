@@ -1,0 +1,63 @@
+import java.util.Scanner;
+public class sortArr {
+	public static void main(String[]args){
+		Scanner input=new Scanner(System.in);
+		System.out.println("chose what function do you want");
+		
+		
+		System.out.println("1: Reverse num");
+		System.out.println("2: average sum");
+		
+		int n=input.nextInt();
+		if (n<1||n>2){
+			System.out.println("enter 1 or 2");
+		return;
+		}
+		
+		switch(n){
+		case 1:
+			reverseNum();
+			break;
+		case 2:
+			averageSum();
+		break;
+		}
+	}
+		
+		
+	
+	public static void reverseNum(){
+		
+		System.out.println("Reverse NUM");
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter num");
+		int number=input.nextInt();
+		
+		int num=0;
+		
+		while(num!=0){
+			System.out.print(num%10);
+			num=num/10;
+		}
+			
+			System.out.println("The reversed num is :" + num);
+		}
+			
+	public static void averageSum(){
+		System.out.println("Average Sum");
+		Scanner input= new Scanner(System.in);
+		System.out.println("enter num 1: ");
+		int num1= input.nextInt();
+		int sum=0;
+		System.out.println("enter num 2: ");
+		int num2= input.nextInt();
+		
+		int avrg= (num1+num2)/2;
+		
+		System.out.println("The average sum is "+avrg);
+		
+	}
+	
+	
+	
+	}

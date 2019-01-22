@@ -1,0 +1,5 @@
+int myInt = 5; System.out.println(myInt); // 5 
+ 
+long myLong = myInt; System.out.println(myLong); // 5 
+ 
+System.out.println(myLong + myInt); // 10 
