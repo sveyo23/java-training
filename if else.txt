@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ifelse {
+	public static void main(String[]args)
+	{
+		Scanner input = new Scanner (System.in);
+		System.out.println("vuvedi cheislo: ");
+		int firstNum= input.nextInt();
+		int secondNum= input.nextInt();
+		if(firstNum==secondNum)
+			System.out.println("equal");
+		else{
+			if (firstNum>secondNum){
+			System.out.println("first > sec");}
+			
+		else {System.out.println("sec > firs");}
+		}
+		
+	
+		
+	}}
